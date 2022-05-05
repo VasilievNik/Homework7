@@ -16,5 +16,7 @@ public class Main {
         fullName = secondName.replace('ё', 'е')+ firstName.replace('ё', 'е') + lastName.replace('ё', 'е');
         System.out.format("Данные ФИО сотрудника для заполнения отчета - %s\n" , fullName);
         //--------------------------------------------------------
+
+
     }
 }
